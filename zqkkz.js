@@ -146,7 +146,7 @@ function openbox(id,zq_cookie1,timeout=0) {
             headers : {
     'Host': 'kd.youth.cn',
      //'Referer': 'https://kd.youth.cn/h5/20190527watchMoney/?' +zq_cookie1
-     'Referer':'https://kd.youth.cn/h5/20190527watchMoney/?access=WIFI&app-version=4.0.0&app_version=4.0.0&channel=c1001&'+zq_cookie1},
+     'Referer':'https://kd.youth.cn/h5/20190527watchMoney/?keyword_wyq=woyaoq.com&access=WIFI&app-version=4.0.0&app_version=4.0.0&carrier=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8&channel=c1001&'+zq_cookie1},
             }
         $.get(url, async (err, resp, data) => {
             try {
