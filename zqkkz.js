@@ -146,7 +146,7 @@ function openbox(id,zq_cookie1,timeout=0) {
             headers : {
     'Host': 'kd.youth.cn',
      //'Referer': 'https://kd.youth.cn/h5/20190527watchMoney/?' +zq_cookie1
-     'Referer':'https://kd.youth.cn/h5/20190527watchMoney/?keyword_wyq=woyaoq.com&access=WIFI&app-version=8.1.2&app_version=8.1.2&carrier=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8&channel=c1005&'+zq_cookie1},
+     'Referer':'https://kd.youth.cn/h5/20190527watchMoney/?access=WIFI&app-version=4.0.0&app_version=4.0.0&channel=c1001&cookie=MDAwMDAwMDAwMJCMpN-w09Wtg5-Bb36eh6CPqHualIejmK-btamx3YFuhIyp4LDPyGl9onqkj3ZqYJa8Y898najWsJupZLG3m2mEfI7fr8_EapqGcXY&cookie_id=97d7556596e0e738e0597441e8378c99&device_brand=OPPO&device_id=54962995&device_model=PDVM00&device_platform=android&device_type=android&inner_version=202203071018&mi=0&os_api=29&sm_device_id=2021081614245397a124fcf4bb1d38e84063e9422f56c501ca21a5fb327080&statusBarHeight=36&'+zq_cookie1},
             }
         $.get(url, async (err, resp, data) => {
             try {
