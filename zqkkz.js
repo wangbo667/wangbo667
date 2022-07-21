@@ -9,7 +9,7 @@ shaolin-kongfu
 [rewrite_local]
 
 #看看赚
-https://kd.youth.cn/v5/nameless/adlickstart.json 重写目标 https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqkkz.js
+https://kd.youth.cn/v5/nameless/adlickstart.json 重写目标 https://raw.githubusercontent.com/wangbo667/wangbo667/main/zqkkz.js
 [MITM]
 hostname = kd.youth.cn
 */
