@@ -142,11 +142,11 @@ Object.keys(zqlookStartbodys).forEach((item) => {
 function openbox(id,zq_cookie1,timeout=0) {
     return new Promise((resolve) => {
         let url = {
-            url : 'https://kd.youth.cn/WebApi/Nameless/getBoxReward?id='+ id + '&' + zq_cookie1,
+            url : 'https://kd.youth.cn/WebApi/Nameless/getBoxRewardConf?id='+ id + '&' + zq_cookie1,
             headers : {
     'Host': 'kd.youth.cn',
      //'Referer': 'https://kd.youth.cn/h5/20190527watchMoney/?' +zq_cookie1
-     'Referer':'https://kd.youth.cn/h5/20190527watchMoney/?keyword_wyq=woyaoq.com&access=WIFI&app-version=4.0.0&app_version=4.0.0&carrier=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8&channel=c1001&'+zq_cookie1},
+     'Referer':'https://kd.youth.cn/h5/20190527watchMoney/?keyword_wyq=woyaoq.com&access=WIFI&app-version=4.5.9&app_version=4.0.0&carrier=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8&channel=c1001&'+zq_cookie1},
             }
         $.get(url, async (err, resp, data) => {
             try {
